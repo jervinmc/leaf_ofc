@@ -1,0 +1,11 @@
+0 Apple Cedar Rust
+1 Apple Rot
+2 Apple Scab
+3 Cherry Powdery Mildrew
+4 Corn Common Leaf Blight
+5 Corn Common Rust
+6 corn maize cercospora leaf spot gray leaf spot
+7 Grape Black Rot
+8 Grape Esca
+9 Grape Leaf Blight
+10 Orange Haunglongbing
