@@ -1,29 +1,26 @@
-<div style="padding: 0px;background-color: #1e6a67;">
-  <div align="center">
-        <ul>
-  <li><a class="active" href="/">Home</a></li>
-  <li><a href="/scanner">Scanner</a></li>
-  <li><a href="/tips">Growing Tips</a></li>
-  <li><a href="/about">About us</a></li>
-</ul>
-  </div>
-  <div class="hero" >
-    LET'S ROOT FOR EACH OTHER AND WATCH EACH OTHER GROW.
-  </div>
-    <div class="home-footer">
-        <!-- <img src="{{url_for('video')}}" > -->
-        <div>
-            WANT TO SCAN YOUR PLANT LEAVES FOR A POSSIBLE DISEASE?
+<div style="padding: 0px; height: 100vh;">
+    <div align="center">
+          <ul>
+    <li><a class="active" href="/">Home</a></li>
+    <li><a href="/scanner">Scanner</a></li>
+    <li><a href="/tips">Growing Tips</a></li>
+    <li><a href="/about">About us</a></li>
+  </ul>
+    </div>
+    <div style="height: 100px; align-items: center;justify-content: center;display: flex;">
+       <h1>{{value.disease}}</h1>  
+    </div>
+    <div style="padding:30px">
+       <h3> {{value.descriptions}}</h3>
+    </div>
+    <div style="padding:30px">
+        <div style="">
+            {{value.treatment}}
         </div>
-       <div>
-        <form method="POST"  enctype="multipart/form-data">
-          {{ form.image }}
-            <button class="button button5" type="submit">Upload Image</button>
-          </form>
-       </div>
-            
+        
     </div>
 </div>
+
 
 <style lang="scss">
     .button {

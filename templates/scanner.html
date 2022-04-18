@@ -1,0 +1,99 @@
+<div style="padding: 0px;background-color: #1e6a67;">
+    <div align="center">
+          <ul>
+    <li><a class="active" href="/">Home</a></li>
+    <li><a href="/scanner">Scanner</a></li>
+    <li><a href="/tips">Growing Tips</a></li>
+    <li><a href="/about">About us</a></li>
+  </ul>
+    </div>
+    <div class="hero" >
+      LET'S ROOT FOR EACH OTHER AND WATCH EACH OTHER GROW.
+    </div>
+    <div style="display:flex;justify-content:center;align-items:center;height:100px;padding-bottom: 50px;">
+        <img src="{{url_for('video')}}" >   
+ </div>
+      <div class="home-footer">
+       
+         
+         <div>
+             <a href="/treatment"> <button class="button button5">Select Recommendations</button></a>
+         </div>
+              
+      </div>
+  </div>
+  
+  <style lang="scss">
+      .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+      .button5 {background-color: #555555;} /* Black */
+      .home-footer{
+          flex-wrap: wrap;
+          color: white;
+          font-size: 16px;
+          padding: 50px;
+          height: 200px;
+          flex-flow: wrap;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+      }
+      .hero{
+          padding: 50px;
+          background-image:linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+     url("https://t4.ftcdn.net/jpg/04/31/97/65/360_F_431976514_P4b7umRdTxJeewAyzD5ItVc8LTTurva7.jpg") ;
+          background-repeat: no-repeat;
+          background-size: cover;
+          justify-content: center;
+          display: flex;
+          color: white;
+          align-items: center;
+          height: 350px;
+          font-size: 40px;
+  
+  
+      }
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #426e6c;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #426e6c;
+  }
+  div {
+      font-family: Verdana, sans-serif;
+  }
+  .active {
+    background-color: #426e6c;
+  }
+  
+  </style>
