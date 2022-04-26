@@ -231,6 +231,22 @@ class VideoCamera():
                     
                 if i[10] >0.7:
                     text = "Orange Haunglongbing"
+                if i[11] >0.7:
+                    text = "Apple Healthy"
+                if i[12] >0.7:
+                    text = "Corn Healthy"
+                if i[13] >0.7:
+                    text = "Grape Healthy"
+                if i[14] >0.7:
+                    text = "Peach Healthy"
+                if i[15] >0.7:
+                    text = "Pepper Bell Healthy"
+                if i[16] >0.7:
+                    text = "Potato Healthy"
+                if i[17] >0.7:
+                    text = "Strawberry Healthy"
+                if i[18] >0.7:
+                    text = "Tomato Healthy"
                 
                 cv2.putText(image,text,(0,20),cv2.FONT_ITALIC,1,(0,255,0),2)
             globals()['disease']=text
@@ -287,6 +303,22 @@ def predict(img):
             
         if i[10] >0.7:
             text = "Orange Haunglongbing"
+        if i[11] >0.7:
+            text = "Apple Healthy"
+        if i[12] >0.7:
+            text = "Corn Healthy"
+        if i[13] >0.7:
+            text = "Grape Healthy"
+        if i[14] >0.7:
+            text = "Peach Healthy"
+        if i[15] >0.7:
+            text = "Pepper Bell Healthy"
+        if i[16] >0.7:
+            text = "Potato Healthy"
+        if i[17] >0.7:
+            text = "Strawberry Healthy"
+        if i[18] >0.7:
+            text = "Tomato Healthy"
     print(prediction)
     print(text)
     return text
