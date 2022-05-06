@@ -17,18 +17,3 @@
 16 Potato Healthy
 17 Strawberry Healthy
 18 Tomato Healthy
-19 Peach Bacterial Spot
-20 Pepper Bell Bacterial Spot
-21 Potato Early Blight
-22 Potato Late Blight
-23 Squash Powdery Mildew
-24 Strawberry Leaf Scorch
-25 Tomato Bacterial Spot
-26 Tomato Early Blight
-27 Tomato Late Blight
-28 Tomato Leaf Mold
-29 Tomato Mosaic Virus
-30 Tomato Septoria Leaf Spot
-31 Tomato Spider mites
-32 Tomato Target Spot
-33 Tomato Yellow Leaf Curl Virus
